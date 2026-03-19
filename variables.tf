@@ -14,3 +14,7 @@ variable "client_secret" {
   type      = string
   sensitive = true
 }
+variable "vm_password" {
+  type      = string
+  sensitive = true
+}
