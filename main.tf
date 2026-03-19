@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "rg" {
   name     = "rg-cr460-mahdi"
-  location = "Canada Central"
+  location = "East US"
 }
 
 resource "azurerm_virtual_network" "vnet" {
